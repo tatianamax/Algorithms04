@@ -22,7 +22,7 @@ public class AreNumbersEquaTest {
         int expectedResult = 0;
 
         AreNumbersEqua aa = new AreNumbersEqua();
-        int actualResult = aa.AreNumbersEquaMethod(a, b);
+        int actualResult = aa.areNumbersEquaMethod(a,b);
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
@@ -33,7 +33,7 @@ public class AreNumbersEquaTest {
         int expectedResult = -1;
 
         AreNumbersEqua aa = new AreNumbersEqua();
-        int actualResult = aa.AreNumbersEquaMethod(a, b);
+        int actualResult = aa.areNumbersEquaMethod(a, b);
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
@@ -45,7 +45,7 @@ public class AreNumbersEquaTest {
         int expectedResult = 1;
 
         AreNumbersEqua aa = new AreNumbersEqua();
-        int actualResult = aa.AreNumbersEquaMethod(a, b);
+        int actualResult = aa.areNumbersEquaMethod(a, b);
         Assertions.assertEquals(expectedResult, actualResult);
 
     }

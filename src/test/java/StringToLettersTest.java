@@ -8,7 +8,7 @@ public class StringToLettersTest {
         String expectedResult = "орпаодйалрпсрлучрлчук";
 
         StringToLetters sl = new StringToLetters();
-        String actualResult = sl.StringToLettersMethod(k);
+        String actualResult = sl.stringToLettersMethod(k);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }

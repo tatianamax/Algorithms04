@@ -4,7 +4,7 @@ public class ReverseString {
 //            “Abracadabra” → “arbadacarbA”
 
 
-    public String ReverseStrings(String str){
+    public String reverseStrings(String str){
         char[] array = str.toCharArray();
         String result = "";
         for (int i = array.length - 1; i >= 0; i--) {

@@ -14,7 +14,7 @@ public class StringToNumbers1Test {
         String expectedResult = "8615234612343863803383";
 
         StringToNumbers1 s1 = new StringToNumbers1();
-        String actualResult = s1.StringToNumbers1Method(k1);
+        String actualResult = s1.stringToNumbers1Method(k1);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }

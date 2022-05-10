@@ -12,7 +12,7 @@ public class AreNumbersEqua {
 //            89, -89
 //    Expected result: 1
 
-    public int AreNumbersEquaMethod(int a, int b){
+    public int areNumbersEquaMethod(int a, int b){
         if(a == b){
             return 0;
         }if(a < b){

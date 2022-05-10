@@ -4,7 +4,7 @@ public class IsPositiveNumber {
 //    и возвращает false, если параметр меньше 0.
 //    Проверьте работу метода на числах 555, 0 и -555.
 
-    public boolean IsPositiveNumberMethod(int a){
+    public boolean isPositiveNumberMethod(int a){
 //        if (a >= 0){
 //            return true;
 //        }else{

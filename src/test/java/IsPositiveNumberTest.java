@@ -14,7 +14,7 @@ public class IsPositiveNumberTest {
         boolean expectedResult = true;
 
         IsPositiveNumber in = new IsPositiveNumber();
-        boolean actualResult = in.IsPositiveNumberMethod(a);
+        boolean actualResult = in.isPositiveNumberMethod(a);
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
@@ -23,7 +23,7 @@ public class IsPositiveNumberTest {
         boolean expectedResult = true;
 
         IsPositiveNumber in = new IsPositiveNumber();
-        boolean actualResult = in.IsPositiveNumberMethod(a);
+        boolean actualResult = in.isPositiveNumberMethod(a);
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
@@ -32,7 +32,7 @@ public class IsPositiveNumberTest {
         boolean expectedResult = false;
 
         IsPositiveNumber in = new IsPositiveNumber();
-        boolean actualResult = in.IsPositiveNumberMethod(a);
+        boolean actualResult = in.isPositiveNumberMethod(a);
         Assertions.assertEquals(expectedResult,actualResult);
     }
 

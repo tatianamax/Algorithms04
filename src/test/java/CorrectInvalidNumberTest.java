@@ -14,7 +14,7 @@ public class CorrectInvalidNumberTest {
         String expectedResult = "Хорошее число";
 
         CorrectInvalidNumber cn = new CorrectInvalidNumber();
-        String actualResult = cn.CorrectInvalidNumberMethod(m);
+        String actualResult = cn.correctInvalidNumberMethod(m);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }
@@ -24,7 +24,7 @@ public class CorrectInvalidNumberTest {
         String expectedResult = "Неверный номер";
 
         CorrectInvalidNumber cn = new CorrectInvalidNumber();
-        String actualResult = cn.CorrectInvalidNumberMethod(m);
+        String actualResult = cn.correctInvalidNumberMethod(m);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }
@@ -34,7 +34,7 @@ public class CorrectInvalidNumberTest {
         String expectedResult = "Плохое число";
 
         CorrectInvalidNumber cn = new CorrectInvalidNumber();
-        String actualResult = cn.CorrectInvalidNumberMethod(m);
+        String actualResult = cn.correctInvalidNumberMethod(m);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }
@@ -44,7 +44,7 @@ public class CorrectInvalidNumberTest {
         String expectedResult = "-1";
 
         CorrectInvalidNumber cn = new CorrectInvalidNumber();
-        String actualResult = cn.CorrectInvalidNumberMethod(m);
+        String actualResult = cn.correctInvalidNumberMethod(m);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }

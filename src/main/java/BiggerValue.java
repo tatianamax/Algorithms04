@@ -4,7 +4,7 @@ public class BiggerValue {
 //    Test Data:
 //            3333, 9999
 //    Expected Result = 9999
-    public int BiggerValueMethod(int a, int b){
+    public int biggerValueMethod(int a, int b){
         int maxNumber = Math.max(a,b);
 
         return maxNumber;

@@ -5,7 +5,7 @@ public class CorrectInvalidNumber {
 //            ● Если M кратно только 5, а не 3, вернуть "Плохое число".
 //            ● Если M не удовлетворяет ни одному из вышеперечисленных условий, вернуть «-1».
 
-    public String CorrectInvalidNumberMethod(int m){
+    public String correctInvalidNumberMethod(int m){
         if(m% 3 == 0 & m % 5 == 0){
             return "Хорошее число";
         }if(m% 3 == 0 & m% 5 !=0){

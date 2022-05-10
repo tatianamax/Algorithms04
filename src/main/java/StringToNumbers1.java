@@ -4,7 +4,7 @@ public class StringToNumbers1 {
 ////        орпаодйа86152346]1234лрпсрлучрлч3у8638-03]-3к8-\3
 //            8615234612343863803383
 
-    public String StringToNumbers1Method(String k1){
+    public String stringToNumbers1Method(String k1){
         k1 = k1.replaceAll("[^0-9]", "");
         return k1;
 

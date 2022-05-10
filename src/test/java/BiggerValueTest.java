@@ -17,7 +17,7 @@ public class BiggerValueTest {
         int expectedResult = 9999;
 
         BiggerValue bv = new BiggerValue();
-        int actualResult = bv.BiggerValueMethod(a,b);
+        int actualResult = bv.biggerValueMethod(a,b);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }

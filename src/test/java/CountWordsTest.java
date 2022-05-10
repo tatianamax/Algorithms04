@@ -15,7 +15,7 @@ public class CountWordsTest {
         int expectedResult = 5;
 
         CountWords cw = new CountWords();
-        int actualResult = cw.CountWordsMethod(text,word);
+        int actualResult = cw.countWordsMethod(text,word);
         Assertions.assertEquals(expectedResult,actualResult);
 
 
@@ -33,7 +33,7 @@ public class CountWordsTest {
         int expectedResult = 5;
 
         CountWords cw = new CountWords();
-        int actualResult = cw.CountWordsMethod(text,word);
+        int actualResult = cw.countWordsMethod(text,word);
         Assertions.assertEquals(expectedResult,actualResult);
 
 

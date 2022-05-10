@@ -12,7 +12,7 @@ public class ReverseStringTest {
         String expectedResult = "arbadacarbA";
 
         ReverseString rs = new ReverseString();
-        String actualResult = rs.ReverseStrings(str);
+        String actualResult = rs.reverseStrings(str);
         Assertions.assertEquals(expectedResult,actualResult);
 
     }

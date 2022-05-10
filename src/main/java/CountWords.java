@@ -3,7 +3,7 @@ public class CountWords {
 //    который принимает на вход текст и слово,
 //    и считает все вариации этого слова в тексте:
 
-    public int CountWordsMethod(String text,String word){
+    public int countWordsMethod(String text,String word){
         int count = 0;
         for (int i=0; i < text.length(); i++){
             text = String.valueOf(text.contains(word));
